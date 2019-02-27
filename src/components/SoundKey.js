@@ -46,7 +46,7 @@ class SoundKey extends Component {
     render() {
         const props = this.props;
         return (
-            <div data-key={props.keyCode} className="key" ref={this.keyRef}>
+            <div data-key={props.keyCode} className="key" ref={this.keyRef} onClick={this.playSound}>
                 <div>
                     <kbd>{props.keyValue}</kbd>
                     <span className="sound">{props.soundName}</span>
