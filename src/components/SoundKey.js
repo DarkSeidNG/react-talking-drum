@@ -21,6 +21,7 @@ class SoundKey extends Component {
             }
         });
         this.keyRef.current.addEventListener('transitionend', this.removeTransition);
+        this.audio = new Audio(this.props.soundFile);
     }
 
     /**
@@ -30,9 +31,8 @@ class SoundKey extends Component {
      */
     playSound = () => {
         this.keyRef.current.classList.add('playing');
-        const audio = new Audio(this.props.soundFile);
-        audio.currentTime = 0;
-        audio.play();
+        this.audio.currentTime = 0;
+        this.audio.play();
     };
 
     /**
