@@ -9,6 +9,7 @@ import sounds from '../helpers/sounds';
 function Home () {
   return (
       <div className="container">
+          <h1 style={{width: '100%', textAlign: 'center', fontSize: 50, color: '#fff'}}>TALKING DRUM</h1>
         {sounds.map((sound, idx) => {
           return (
               <SoundKey
