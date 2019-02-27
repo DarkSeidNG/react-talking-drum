@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React Home](https://github.com/facebook/create-react-app).
+# React Talking Drum
+The talking drum is an hourglass-shaped drum from West Africa, whose pitch can be regulated to mimic the tone and prosody of human speech. It has two drumheads connected by leather tension cords, which allow the player to modulate the pitch of the drum by squeezing the cords between their arm and body.  
 
-## Available Scripts
 
-In the project directory, you can run:
+## Introduction
+React talking drum is a simple talking drum keyboard that plays different talking drum sounds when different keyboard keys are pressed.
 
-### `npm start`
+### Dependencies
+This app was bootstrapped using `create-react-app`  
+* **[React JS](https://facebook.github.io/create-react-app)** - Reactjs is a JavaScript library developed by Facebook for building UI components. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Features
+<ul>
+<li>Users can play talking drum beats right from their browser with their keyboards</li>
+</ul>
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+## Getting started with the project
+* To run the app locally, have node.js installed  
+* Clone the repo `git clone https://github.com/DarkSeidNG/react-talking-drum.git`
+* Navigate to the `react-talking-drum` directory
+* Run `npm install` to install all dependencies
+* Run `npm start` to run the application
+* To run tests - Run `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing to the project
+* Fork this repository to your github account
+* Clone the repository -  `git clone https://github.com/DarkSeidNG/react-talking-drum.git`
+* Create your feature branch - `git checkout -b your-branch-name`
+* Commit your changes - `git commit -m “[Enter message]“` or `git commit` for the interactive interface
+* Push to the remote branch - `git push origin your-branch-name`
+* Open a pull request.
 
-### `npm run build`
+Click this link to visit the hosted app [React Talking Drum](https://react-talking-drum.herokuapp.com/)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I look forward to your pull requests :)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## License
+[MIT License](https://github.com/DarkSeidNG/react-talking-drum/blob/add-license-1/LICENSE)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React Home documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web Home
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Author
+* **[Ifeanyi Orji](ifeanyicorji@gmail.com)**
