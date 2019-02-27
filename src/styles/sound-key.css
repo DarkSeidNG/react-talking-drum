@@ -45,3 +45,17 @@ kbd {
   letter-spacing: 1px;
   color: #ffc600;
 }
+
+@media only screen and (max-width: 700px) {
+  .key > div{
+    width: 60px;
+  }
+
+  kbd {
+    font-size: 20px;
+  }
+
+  .sound {
+    font-size: .6rem;
+  }
+}
