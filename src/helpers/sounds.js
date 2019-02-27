@@ -22,7 +22,7 @@ import mid_5 from '../assets/sounds/talkingdrum_mid_5.wav';
 
 /**
  * An array of different talking drum sounds, the key code for playing them, and their sound files
- * @type {*[] array}
+ * @type {*[]}
  */
 const sounds = [
     { keyCode: '81', keyValue: 'Q', soundName: 'Hi 1', soundFile: h1 },

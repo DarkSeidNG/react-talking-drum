@@ -3,7 +3,7 @@ import SoundKey from '../components/SoundKey';
 import sounds from '../helpers/sounds';
 
 /**
- * Since this function does not reqquire states and props we make it functional
+ * Since this function does not require states and props we make it functional
  * @returns {*}
  */
 function Home () {

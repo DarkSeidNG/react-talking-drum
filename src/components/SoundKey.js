@@ -4,12 +4,12 @@ import '../styles/sound-key.css';
 class SoundKey extends Component {
     constructor(props) {
         super(props);
-
         this.keyRef = React.createRef();
     }
 
     /**
-     * When component mounts add the event listener which plays the sound when the key matches the
+     * When component mounts add the event
+     * listener which plays the sound when the key matches the
      * keycode of this item
      */
     componentDidMount() {
@@ -20,12 +20,12 @@ class SoundKey extends Component {
                 parent.playSound();
             }
         });
-
         this.keyRef.current.addEventListener('transitionend', this.removeTransition);
     }
 
     /**
-     * Play the sound related to the clicked key, this method creates a html5 audio and plays the soundFile
+     * Play the sound related to the clicked key,
+     * this method creates a html5 audio and plays the soundFile
      * set in the props
      */
     playSound = () => {
@@ -36,7 +36,8 @@ class SoundKey extends Component {
     };
 
     /**
-     * Remove the playing class which highlights the clicked key after the transition has happened
+     * Remove the playing class which highlights the
+     * clicked key after the transition has happened
      */
     removeTransition = () => {
         this.keyRef.current.classList.remove('playing');
