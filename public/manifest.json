@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React Talking Drum",
+  "name": "A simple talking drum app built with reactJs",
   "icons": [
     {
       "src": "favicon.ico",
