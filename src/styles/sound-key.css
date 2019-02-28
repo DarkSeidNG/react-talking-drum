@@ -56,6 +56,20 @@ kbd {
   }
 
   .sound {
-    font-size: .6rem;
+    font-size: .5rem;
   }
+}
+
+@media only screen and (max-width: 390px) {
+    .sound {
+        display: none;
+    }
+
+    .key > div{
+        width: 40px;
+    }
+    
+    kbd {
+        font-size: 16px;
+    }
 }
