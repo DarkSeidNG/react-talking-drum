@@ -5,6 +5,7 @@ class SoundKey extends Component {
     constructor(props) {
         super(props);
         this.keyRef = React.createRef();
+        this.audio = new Audio(this.props.soundFile);
     }
 
     /**
@@ -21,7 +22,7 @@ class SoundKey extends Component {
             }
         });
         this.keyRef.current.addEventListener('transitionend', this.removeTransition);
-        this.audio = new Audio(this.props.soundFile);
+        this.audio.load();
     }
 
     /**
